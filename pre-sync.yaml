@@ -4,7 +4,7 @@ metadata:
   name: before
   annotations:
     argocd/argoproj.io/hook: PreSync
-sync:
+spec:
   template:
     spec:
       containers:
